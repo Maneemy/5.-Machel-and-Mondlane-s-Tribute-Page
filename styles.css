@@ -6,6 +6,8 @@ body{
 .header{
   background-color: rgba(46, 46, 197, 0.356);
   border-bottom: 3px solid sienna;
+  padding-top: -2px 0;
+  margin-top: 15px;
 }
 
 
@@ -149,7 +151,6 @@ margin: auto;
 }
 
 .disclaimer {
-  padding: 0px 0;
   text-align: center;
   background-color: rgba(204, 144, 98, 0.192);
   width:auto ;
