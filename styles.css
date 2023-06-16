@@ -74,7 +74,7 @@ padding: 10px 0;
   text-align: justify;
   background-color:rgba(177, 144, 101, 0.308);
   border-radius: 10px;
-  margin: -2px 0;
+  margin: 2px 0;
   }
 
 .tribute-box p {
@@ -144,14 +144,17 @@ details{
 .divider {
 height: 2px;
 background-color: rgb(212, 131, 8);
-width: 40vw;
+width: 45vw;
 margin: auto;
 }
 
 .disclaimer {
   padding: 0px 0;
   text-align: center;
-  background-color: rgba(104, 63, 33, 0.192);
+  background-color: rgba(204, 144, 98, 0.192);
+  width:auto ;
+}
+
+.bio {
   font-weight: 600;
-  font-size: 17px;
-width:auto ;}
+}
