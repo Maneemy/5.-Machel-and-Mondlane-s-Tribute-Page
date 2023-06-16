@@ -1,0 +1,132 @@
+.header{
+  background-color: rgba(46, 46, 197, 0.356);
+  border-bottom: 3px solid sienna;
+}
+
+
+img {
+    display:block;
+    max-width:100%;
+    height: auto;
+    margin:auto;
+  }
+
+main{
+  background-color:blanchedalmond; 
+  max-width: 98%;
+  width: 95%;
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;}
+
+.small{
+  text-align: center;
+  font-size:medium;
+color:peru;}
+
+
+.detail {font-size: 60px;
+color: rgba(129, 31, 31, 0.863);}
+
+.image-block {background-color: rgba(175, 102, 102, 0.493);
+height: auto;
+margin-top: 6px;
+padding: 6px 0;
+width: 60em;
+margin: auto;
+}
+
+figcaption{
+  margin-top: 5px;
+  text-align: center;
+}
+.tribute-info {
+  
+}
+
+.tribute-master-box {
+/*background-color: chocolate;*/
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+width: 60em;
+margin: auto;
+padding: 10px 0;
+}
+
+.tribute-box {
+  border: 1px solid red;
+  width: 49%;
+  text-align: justify;
+  }
+
+.tribute-box p {
+  padding-left: 15px;
+  margin-bottom: -15px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.closure p, .introduction p, main p{
+  padding:0 15px;
+  text-align: justify;
+}
+
+.quotes-master{
+  /*background-color: cyan;*/
+  padding: 15px 0px;
+}
+
+.mondlane-quote, .machel-quote{
+  border:2px solid red;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 50%;
+  text-align: justify;
+  font-style: italic;
+}
+
+.mondlane-quote{
+  margin-left: 30px;
+}
+
+.machel-quote{
+  margin-left: 520px;
+
+}
+
+.signature{
+  margin-top: -15px;
+  text-align: right;
+font-style: italic;}
+
+
+main p{
+  padding-bottom:6px;
+text-align: justify;}
+
+div > ul > li, .closure ul > li {padding: 10px 10px 10px 0px;  }
+
+.overview {font-style: normal;
+font-weight:bold;
+}
+
+details{
+  padding-left: 20px;
+  padding-top: -10px; 
+}
+
+.divider {
+height: 2px;
+background-color: rgb(212, 131, 8);
+width: 40em;
+margin: auto;
+
+}
