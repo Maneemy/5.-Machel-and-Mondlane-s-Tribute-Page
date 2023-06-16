@@ -13,8 +13,8 @@ img {
 
 main{
   background-color:blanchedalmond; 
-  max-width: 98%;
-  width: 95%;
+  max-width: 98vw;
+  width: 95vw;
   margin: auto;
   font-family: 'Times New Roman', Times, serif;
   
@@ -34,12 +34,11 @@ color:peru;}
 color: rgba(129, 31, 31, 0.863);}
 
 .image-block {background-color: rgba(175, 102, 102, 0.493);
-display: block;
-position: relative;
+
 height: auto;
 margin-top: 6px;
 padding: 6px 0;
-width: 60em;
+width: 60vw;
 margin: auto;
 }
 
@@ -64,7 +63,7 @@ padding: 10px 0;
 
 .tribute-box {
   border: 1px solid red;
-  width: 49%;
+  width: 49vw;
   text-align: justify;
   }
 
@@ -88,6 +87,7 @@ padding: 10px 0;
   flex-direction:column;
   align-items: flex-start;
   justify-content:space-between;
+  padding: 2px 0;
 }
 
 .mondlane-quote, .machel-quote{
@@ -101,7 +101,7 @@ padding: 10px 0;
 .mondlane-quote{
   align-items: start;
   margin-left: 2vw;
-  }
+ }
 
 .machel-quote{
   align-items: end;
