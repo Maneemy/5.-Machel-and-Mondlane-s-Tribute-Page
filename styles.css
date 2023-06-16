@@ -1,3 +1,8 @@
+body{
+  width: 100vw;
+  background-color:azure;
+}
+
 .header{
   background-color: rgba(46, 46, 197, 0.356);
   border-bottom: 3px solid sienna;
@@ -17,6 +22,8 @@ main{
   width: 95vw;
   margin: auto;
   font-family: 'Times New Roman', Times, serif;
+  border: 2px solid brown;
+  border-radius: 10px;
   
 }
 
@@ -62,9 +69,12 @@ padding: 10px 0;
 }
 
 .tribute-box {
-  border: 1px solid red;
+  border: none;
   width: 49vw;
   text-align: justify;
+  background-color:rgba(177, 144, 101, 0.308);
+  border-radius: 10px;
+  margin: -2px 0;
   }
 
 .tribute-box p {
@@ -87,14 +97,15 @@ padding: 10px 0;
   flex-direction:column;
   align-items: flex-start;
   justify-content:space-between;
-  padding: 2px 0;
-}
+  }
 
 .mondlane-quote, .machel-quote{
-  border:2px solid red;
+  border:none;
   text-align: justify;
   font-style: italic;
   width: 50%;
+  background-color: rgba(175, 142, 75, 0.295);
+  border-radius: 45px;
 }
 
 
@@ -135,5 +146,12 @@ height: 2px;
 background-color: rgb(212, 131, 8);
 width: 40vw;
 margin: auto;
-
 }
+
+.disclaimer {
+  padding: 0px 0;
+  text-align: center;
+  background-color: rgba(104, 63, 33, 0.192);
+  font-weight: 600;
+  font-size: 17px;
+width:auto ;}
