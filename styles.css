@@ -86,7 +86,7 @@ padding: 10px 0;
   display:flex;
   flex-wrap: wrap;
   flex-direction:column;
-  align-items: center;
+  align-items: flex-start;
   justify-content:space-between;
 }
 
@@ -100,12 +100,12 @@ padding: 10px 0;
 
 .mondlane-quote{
   align-items: start;
-  margin-right: 33em;
-}
+  margin-left: 2vw;
+  }
 
 .machel-quote{
   align-items: end;
-  margin-left: 33em;
+  margin-left: 44vw;
 }
 
 
@@ -133,7 +133,7 @@ details{
 .divider {
 height: 2px;
 background-color: rgb(212, 131, 8);
-width: 40em;
+width: 40vw;
 margin: auto;
 
 }
